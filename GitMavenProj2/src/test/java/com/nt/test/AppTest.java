@@ -10,8 +10,8 @@ public class AppTest {
   @Test
 	public void testWithPositives() {
 		Arithmetic ar = new Arithmetic();
-		int expected=40;
-		int actual=ar.sum(10, 30);
+		int expected=60;
+		int actual=ar.sum(10, 50);
 		assertEquals(expected, actual);
 	}
   @Test
